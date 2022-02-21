@@ -7,7 +7,7 @@ public class Exercise{
   }
 if (m > 3) 
   {
-    System.out.println("m cannot be more than 3");
+    System.out.println("m не може бути більше 3");
     System.exit(0);
   }
   if (m > 0 && n == 0) {
@@ -16,7 +16,7 @@ if (m > 3)
   if (m > 0 && n > 0 ) {
     return Ackermann(m-1, Ackermann(m, n-1));
   }
-  System.out.println("Invalid inputs: m and n cannot be negative");
+  System.out.println("Недійсні введення: m і n не можуть бути від’ємними");
   return -1;
   
 }
